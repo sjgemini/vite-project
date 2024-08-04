@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+div.container {
+  background-color: #23252C;
+  width: 550px;
+  height: 868px;
+  margin: auto;
+  padding-top: 44px;
+}
+
+.business-card {
+  width: 317px;
+  height: 780px;
+  margin: auto;
+  background-color: #1A1B21;
+}
+
+.profile-img {
+  width: 317px;
+  height: 317px;
+  border-radius: 8px 8px 0 0;
+}
+
+.profile-name {
+  font-size: 1.5625rem;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-weight: 700;
+}
+
+.profile-title {
+  color: #F3BF99;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-top: -1.5em;
+  font-size: 0.8rem;
+}
+
+.profile-website {
+  color: #F5F5F5;
+  font-size: 0.64rem;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  width: 115px;
+  height: 34px;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.email {
+  color: #374151;
+  background-color: #FFFFFF;
+}
+
+.linkedin {
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+
+.about-container, .interests-container {
+  width: 247px;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+}
+
+.interests-container {
+  margin-bottom: 1em;
+}
+
+.about-title, .interests-title {
+  font-size: 1rem;
+  color: #F5F5F5;
+  margin: 2em 0 0.5em;
+}
+
+.interests-title {
+  margin-top: 1em;
+}
+
+.about-desc, .interests-desc {
+  font-size: 0.64rem;
+  color: #DCDCDC;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.footer-container {
+  height: 64px;
+  background-color: #161619;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #918E9B;
+  font-size: 1.5625rem;
+  border-radius: 0 0 8px 8px;
+}
+
+.footer-container > i {
+  cursor: pointer;
+}
